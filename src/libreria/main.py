@@ -148,8 +148,6 @@ def main() -> None:
         print(f"❌ Error al cargar la librería: {e}")
         return
 
-    mostrar_libreria(data, por_pagina=LIBROS_POR_PAGINA)
-
     while True:
         print(MENU)
         opcion = input("Elige una opción: ").strip()
